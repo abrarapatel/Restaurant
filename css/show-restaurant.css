@@ -231,10 +231,10 @@
   padding: 10px;
   color: #fff;
   border-radius: 5px;
-  background-color: var(--orange);
+  background-color: var(--orange2);
   text-decoration: none;
   font-weight: 500;
-  border: solid 2px var(--orange);
+  border: solid 2px var(--orange2);
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -243,5 +243,5 @@
 
 .restaurant-menu-button a:hover {
   background-color: #fff;
-  color: var(--orange);
+  color: var(--orange2);
 }
