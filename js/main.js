@@ -14,13 +14,18 @@ document.getElementById("landingSearchbox").addEventListener("keyup", function (
     let findText = this.value;
 
     if (findText != "") {
-        let restaurantArr = [];
+        let restaurantArr = [
+            {
+                value: "restaurant-1",
+                text: "Restaurant 1"
+            }
+        ];
 
         let searchesHtml = ``;
 
         if (restaurantArr.length > 0) {
             for (i = 0; i < restaurantArr.length; i++) {
-                searchesHtml += `<a class="search-element" href="./showRestaurant.php?${restaurantArr[i]['value']}">${restaurantArr[i]['text']}</a>`;
+                searchesHtml += `<a class="search-element" href="./showRestaurant.php?resturantCode=${restaurantArr[i]['value']}">${restaurantArr[i]['text']}</a>`;
             }
         } else {
             searchesHtml = "<div class='searches-no-found'>No Restaurant Found</div>";

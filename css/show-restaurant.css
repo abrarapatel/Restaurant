@@ -1,0 +1,247 @@
+.show-restaurant-main-conatiner {
+  margin: auto;
+  /* max-width: 1200px; */
+  width: 100%;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.restaurant-intro-conatiner {
+  padding-bottom: 20px;
+}
+
+.restaurant-name {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.restaurant-address {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: grey;
+}
+
+.restaurant-contact a {
+  color: grey;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.restaurant-email a {
+  color: grey;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.restaurant-details-container {
+  padding: 20px 0;
+}
+
+.details-conatiner-head {
+  font-size: 1rem;
+  font-weight: 700;
+  display: inline-block;
+  color: var(--blue);
+  margin-bottom: 10px;
+}
+
+.restaurant-details {
+  line-height: 30px;
+  font-size: 1rem;
+}
+
+.restaurant-details ul {
+  list-style: none;
+}
+
+.restaurant-details ul li {
+  background-color: #efefef;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+
+.restaurant-reviews-stars-conatiner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.restaurant-reviews-stars {
+  font-size: 2rem;
+  padding: 0 20px;
+}
+
+.restaurant-reviews-star-overall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.restaurant-reviews-star-overall h3 {
+  font-size: 2.5rem;
+}
+
+.restaurant-reviews-star-overall span {
+  font-size: 1rem;
+}
+
+.restaurant-reviews-comments-conatiner {
+  position: relative;
+  overflow: hidden;
+}
+
+.restaurant-reviews-comments-conatiner:before {
+  content: "";
+  background: linear-gradient(90deg, transparent, #fff);
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.resturant-reviews-wrapper {
+  /* width: 1200px; */
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+}
+
+.resturant-reviews-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.restaurant-reviews-conatiner {
+  grid-column: 1/3 span;
+}
+
+.resturant-review-card {
+  min-width: 400px;
+  border: solid 2px #efefef;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resturant-review-card.extra-margin {
+  border: none;
+}
+
+.reviewer-name {
+  font-size: 0.9rem;
+  color: #878787;
+}
+
+.restaurant-review-star-breakdown-conatiner {
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.restaurant-review-star-breakdown {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  gap: 20px;
+}
+
+.restaurant-review-star-breakdown span {
+  display: block;
+  width: 40px;
+}
+
+.review-rate-count-bar-back {
+  background-color: #efefef;
+  height: 10px;
+  width: 350px;
+}
+
+.review-rate {
+  color: #878787;
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+.review-rate-count-bar {
+  background-color: orange;
+  height: 100%;
+  width: 0%;
+}
+
+.restaurant-logo-container {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.restaurant-logo-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.restaurant-time-details-container {
+  padding: 10px 0;
+  max-width: 400px;
+}
+
+.restaurant-time-details-container table {
+  width: 100%;
+}
+
+.restaurant-time-details-container table tr td {
+  padding: 5px 0;
+  font-size: 0.9rem;
+}
+
+.restaurant-time-details-container table tr td:nth-child(even) {
+  text-align: right;
+  font-weight: 900;
+}
+
+.resturant-location-map iframe {
+  width: 300px;
+  height: 200px;
+  vertical-align: top;
+  margin: 20px 0;
+}
+
+.restaurant-menu-button {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.restaurant-menu-button a {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: var(--orange);
+  text-decoration: none;
+  font-weight: 500;
+  border: solid 2px var(--orange);
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  font-size: 0.9rem;
+}
+
+.restaurant-menu-button a:hover {
+  background-color: #fff;
+  color: var(--orange);
+}

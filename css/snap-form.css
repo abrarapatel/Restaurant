@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "montserrat_regular";
-  src: url("../Assets/Fonts/Montserrat-Regular.ttf") format("truetype");
+  font-family: "poppins_regular";
+  src: url("../Assets/Fonts/Poppins-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
@@ -101,7 +101,7 @@
 
 .snap-label {
   box-sizing: border-box;
-  font-family: montserrat_regular;
+  font-family: poppins_regular;
   display: flex;
   align-items: center;
   font-size: 0.9rem;
@@ -110,7 +110,7 @@
 
 .snap-form-element {
   box-sizing: border-box;
-  font-family: montserrat_regular;
+  font-family: poppins_regular;
   display: block;
   width: 100%;
   height: 45px;
@@ -225,7 +225,7 @@ input[type="checkbox"].snap-form-element:not(:checked):hover::after {
   width: 100%;
   height: 45px;
   cursor: pointer;
-  font-family: montserrat_regular;
+  font-family: poppins_regular;
   font-size: 0.9rem;
   font-weight: 900;
   border-radius: 3px;

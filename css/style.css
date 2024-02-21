@@ -1,6 +1,6 @@
 @font-face {
-  font-family: montserrat;
-  src: url("../Assets/Fonts/Montserrat-Regular.ttf");
+  font-family: poppins;
+  src: url("../Assets/Fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
@@ -9,25 +9,30 @@
 }
 
 :root {
-  --orange: #bf5700;
+  --orange: #dd8900;
   --black: #12130f;
   --black-light: #181815;
-  --blue: #2274a5;
-  --blue-darker: #1b638c;
+  --orange2: #ffa500;
+  --orange2-darker: #904a00;
   --off-white: #c3c3c3;
+  --light-grey: #efefef;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: montserrat;
+  font-family: poppins;
+}
+
+body {
+  background-color: var(--light-grey);
 }
 
 .underline,
 .underline-orange,
 .underline-black,
-.underline-blue {
+.underline-orange2 {
   position: relative;
 }
 
@@ -53,8 +58,8 @@
   background-color: var(--black);
 }
 
-.underline-blue::before {
-  background-color: var(--blue);
+.underline-orange2::before {
+  background-color: var(--orange2);
 }
 
 nav {
@@ -89,7 +94,7 @@ nav {
 }
 
 .link:hover {
-  color: var(--blue);
+  color: var(--orange2);
   background-color: var(--black);
 }
 
@@ -98,22 +103,37 @@ nav {
   position: relative;
 }
 
+.landing-quote-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 30px;
+}
+
 .landing-quote {
+  border-radius: 15px;
+  border: dotted 4px var(--orange);
   text-align: center;
-  color: var(--blue-darker);
+  color: #fff;
   font-size: 5rem;
-  padding-top: 60px;
+  padding: 30px;
+  padding-right: 50px;
   font-weight: 900;
   font-family: TokyoBrush;
   position: relative;
+  background-color: var(--black-light);
+  display: inline-block;
+  text-shadow: 0px 0px 10px var(--orange2), 0px 0px 20px var(--orange2),
+    0px 0px 30px var(--orange2);
+  box-shadow: 5px 5px 20px #000;
 }
-
+/* 
 .landing-quote::before {
   content: "Elevate Your Taste";
   position: absolute;
   color: #fff;
   transform: translate(-4px, -4px);
-}
+} */
 
 .landing-container {
   /* background-color: var(--orange); */
@@ -190,7 +210,7 @@ nav {
 }
 
 .landing-search-button:hover {
-  background-color: var(--blue);
+  background-color: var(--orange2);
 }
 
 /*Main Container*/
@@ -262,6 +282,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   padding: 30px;
+  background-color: var(--off-white);
 }
 
 .contact-form {
@@ -387,4 +408,13 @@ footer {
   100% {
     transform: rotate(180deg);
   }
+}
+
+.developer-info {
+  padding: 8px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--orange2-darker);
+  background-color: var(--black-light);
 }
