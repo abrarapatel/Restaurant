@@ -3,9 +3,9 @@
 }
 
 .go-back-button {
-  background-color: #fff;
+  background-color: var(--light-grey);
   color: var(--orange);
-  border: solid 2px #fff;
+  border: solid 2px var(--light-grey);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;

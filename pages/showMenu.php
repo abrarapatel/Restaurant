@@ -36,9 +36,23 @@
                 <div class="menu-section-header">Filter</div>
             </div>
             <div class="menu-content-container">
-
+                <div class="menu-content-category-container">
+                    <div class="menu-content-category-header">
+                        Lunch
+                    </div>
+                    <div class="menu-content-items-container">
+                        <div class="menu-content-item-wrapper">
+                            <div class="menu-item-details">
+                                <div class="menu-item-img">
+                                    <img src="../Assets/Images/Food Images/pixzolo-photography-8YBHgP0WrEo-unsplash.jpg">
+                                </div>
+                            </div>
+                            <div class="menu-item-price-details"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="menu-category-container">
+            <div class=" menu-category-container">
                 <div class="menu-section-header">Category</div>
                 <div class="menu-category-content-conatiner">
                     <div class="menu-category">
