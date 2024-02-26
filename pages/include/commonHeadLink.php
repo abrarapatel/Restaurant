@@ -4,4 +4,5 @@
 <link rel="stylesheet" href="../Font Awesome/all.min.css">
 <link rel="stylesheet" href="../Font Awesome/fontawesome.min.css">
 
+<link rel="stylesheet" href="../css/common-style.css">
 <link rel="stylesheet" href="../css/style.css">

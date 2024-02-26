@@ -40,6 +40,7 @@
 }
 
 .restaurant-details-container {
+  max-width: 850px;
   padding: 20px 0;
 }
 
@@ -52,17 +53,18 @@
 }
 
 .restaurant-details {
-  line-height: 30px;
+  /* line-height: 30px; */
   font-size: 1rem;
 }
 
 .restaurant-details ul {
-  list-style: none;
+  list-style: circle;
+  padding-left: 50px;
 }
 
 .restaurant-details ul li {
-  background-color: #efefef;
-  padding: 10px;
+  /* background-color: #efefef; */
+  /* padding: 10px; */
   margin: 10px 0;
   border-radius: 3px;
 }

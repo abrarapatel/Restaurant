@@ -8,6 +8,11 @@
   src: url("../Assets/Fonts/Tokyo\ Brush\ Italic.ttf");
 }
 
+@font-face {
+  font-family: Bitter;
+  src: url("../Assets/Fonts/Bitter-VariableFont_wght.ttf");
+}
+
 :root {
   --orange: #dd8900;
   --black: #12130f;
@@ -16,6 +21,7 @@
   --orange2-darker: #904a00;
   --off-white: #c3c3c3;
   --light-grey: #efefef;
+  --light-orange: #ffd591;
 }
 
 * {
