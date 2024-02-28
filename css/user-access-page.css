@@ -52,10 +52,6 @@ body {
   color: red;
 }
 
-.error-list li {
-  /* padding: 0px 5px; */
-}
-
 .status-container {
   padding: 20px 30px;
   list-style: none;
