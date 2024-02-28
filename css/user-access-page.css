@@ -1,0 +1,107 @@
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://source.unsplash.com/random/1080x720/?food");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.form-head {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.alternate-option-link {
+  padding-bottom: 20px;
+}
+
+.alternate-option-link a {
+  color: var(--orange);
+}
+
+.access-form-main {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* padding: 20px; */
+  width: 100%;
+}
+
+.access-form-container {
+  background-color: #fff;
+  width: 500px;
+  min-height: 100vh;
+  padding: 40px;
+  /* border-radius: 20px; */
+}
+
+.access-form-container .logo {
+  padding-bottom: 20px;
+}
+
+.user-access-button {
+  background-color: var(--orange);
+  border: solid 1px var(--orange);
+}
+
+.status-container {
+  padding: 20px 30px;
+  list-style: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--off-white);
+}
+
+.status-container li {
+  position: relative;
+}
+
+.status-container li::before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  background-color: var(--light-grey);
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  transform: translate(0%, -50%) rotate(45deg);
+}
+
+.status-container li.full-filled {
+  color: yellowgreen;
+}
+
+.status-container li.full-filled::before {
+  background-color: yellowgreen;
+}
+
+.field-status-icon {
+  position: absolute;
+  right: 0;
+  transform: translate(-15px, 15px);
+}
+
+.field-status-icon.correct {
+  color: yellowgreen;
+}
+
+.field-status-icon.wrong {
+  color: red;
+}
+
+.field-status-icon.correct {
+  color: yellowgreen;
+}
+
+@media screen and (max-width: 850px) {
+  .access-form-container {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+  }
+}
