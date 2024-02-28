@@ -169,21 +169,26 @@ function registerAccount(requiredFields) {
     }
 
     if (finalReturn) {
-        var data = {
-            param1: 'value1',
-            param2: 'value2'
-        };
 
-        fetch('../controllers/your_php_script.php', {
+        var formData = new FormData(signUpForm);
+
+        fetch('../controllers/signUpRequest.php', {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
+            body: formData,
         })
             .then(response => response.text())
             .then(data => {
-                console.log(data);
+                var dataArray = JSON.parse(data);
+                if (dataArray.result) {
+                    window.location = './home.php';
+                } else {
+                    var errorList = document.getElementById('errorList');
+                    errorList.innerHTML = `<li>${dataArray.message}</li>`;
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                }
             })
             .catch(error => {
                 console.error('Error:', error);

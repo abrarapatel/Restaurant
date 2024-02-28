@@ -26,16 +26,18 @@
                 <div class="alternate-option-link">
                     Do not have an account? <a href="./signup.php">Sign Up</a>
                 </div>
-                <form id="signUpForm">
+                <ul class="error-list" id="errorList">
+                </ul>
+                <form id="loginForm">
                     <div class="snap-form-container">
                         <div class="snap-form-row">
                             <div class="snap-col-12">
                                 <label class="snap-label">Email</label>
-                                <input type="email" class="snap-form-element form-required-field" name="email" id="email" placeholder="Email" data-pattern="[^@\s]+@[^@\s]+\.[^@\s]" />
+                                <input type="email" class="snap-form-element form-required-field focus-element" name="email" id="email" placeholder="Email" data-pattern="[^@\s]+@[^@\s]+\.[^@\s]" />
                             </div>
                             <div class="snap-col-12">
                                 <label class="snap-label">Password</label>
-                                <input type="password" class="snap-form-element form-required-field" name="pwd" id="pwd" placeholder="Password" data-pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+{}\[\]:;<>,.?~\\/-]).{8,}$" />
+                                <input type="password" class="snap-form-element form-required-field" name="pwd" id="pwd" placeholder="Password" />
                             </div>
                         </div>
                         <div class="snap-form-row">

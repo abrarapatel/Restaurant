@@ -14,6 +14,9 @@
 </head>
 
 <body>
+    <?php
+    include "./include/connection.php";
+    ?>
     <main>
         <div class="access-form-main">
             <div class="access-form-container">
@@ -26,6 +29,8 @@
                 <div class="alternate-option-link">
                     Already have an account? <a href="./login.php">Login</a>
                 </div>
+                <ul class="error-list" id="errorList">
+                </ul>
                 <form id="signUpForm">
                     <div class="snap-form-container">
                         <div class="snap-form-row">
@@ -73,7 +78,7 @@
             </div>
         </div>
     </main>
-    <!-- <script src="../js/snap-popup.js"></script> -->
+    <script src="../js/snap-popup.js"></script>
     <script src="../js/snap-form.js"></script>
     <script src="../js/sign-up.js"></script>
 </body>
