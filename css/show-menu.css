@@ -23,7 +23,7 @@ body {
 
 .menu-container {
   display: grid;
-  grid-template-columns: 200px 1fr 300px;
+  grid-template-columns: 200px 1fr 200px;
   gap: 40px;
   padding: 40px;
 }
@@ -241,4 +241,120 @@ body {
 
 .menu-item-user-remove-btn:hover {
   background-color: #eb9a05;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu-container {
+    grid-template-columns: 140px 1fr 140px;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .menu-category {
+    padding: 5px 0;
+    font-size: 0.8rem;
+  }
+
+  .menu-item-details-box-base {
+    padding: 10px 20px;
+  }
+
+  .menu-content-item-wrapper {
+    gap: 10px;
+  }
+
+  .menu-item-img {
+    width: 250px;
+    height: 140px;
+  }
+
+  .menu-item-details-name {
+    font-size: 1rem;
+    margin-bottom: 4px;
+  }
+
+  .menu-item-detail-description {
+    font-size: 0.8rem;
+  }
+
+  .menu-item-details-more-link {
+    font-size: 0.8rem;
+  }
+
+  .menu-item-price {
+    font-size: 0.8rem;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+
+  .menu-item-user-select-wrapper {
+    padding: 0;
+  }
+
+  .menu-item-user-selected {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .menu-container {
+    grid-template-columns: 1fr;
+    padding: 30px 10px;
+  }
+
+  .menu-filter-customize-container {
+    display: none;
+  }
+
+  .menu-item-details-category-icon {
+    height: 14px;
+  }
+
+  .menu-item-details-container {
+    gap: 10px;
+  }
+
+  .menu-item-details-box-base,
+  .menu-item-details-box.single-size .menu-item-details-box-base,
+  .menu-item-details-box.couple-size .menu-item-details-box-base,
+  .menu-item-details-box.quarters-size .menu-item-details-box-base {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .menu-item-details-box.single-size {
+    grid-column: auto / span 3;
+  }
+
+  .menu-item-details-box.quarters-size {
+    grid-column: auto / span 6;
+  }
+
+  .menu-item-img {
+    width: 220px;
+    height: 120px;
+  }
+
+  .menu-item-details-box.couple-size .menu-item-img {
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .menu-item-details-container {
+    flex-direction: column-reverse;
+  }
+
+  .menu-item-details-box.quarters-size {
+    grid-column: auto / span 3;
+  }
+
+  .menu-item-details-box.full-size {
+    grid-column: auto / span 3;
+  }
+
+  .menu-item-img {
+    width: 100%;
+  }
 }

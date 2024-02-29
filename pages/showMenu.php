@@ -33,7 +33,7 @@
 
         <div class="menu-container">
             <div class="menu-filter-customize-container">
-                <div class=" menu-category-container">
+                <div class="menu-category-container">
                     <div class="menu-section-header">Category</div>
                     <div class="menu-category-content-conatiner">
                         <div class="user-select-none menu-category selected">All (55)</div>
@@ -60,15 +60,12 @@
                                     <div class="menu-item-details-container">
                                         <div class="menu-item-img-container">
                                             <div class="menu-item-img">
-                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg"
-                                                    alt="">
+                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="menu-item-details">
                                             <div class="menu-item-details-part-a">
-                                                <div class="menu-item-details-name">Prawn and Rice <img
-                                                        src="../Assets/Icons/non-veg-icon.svg"
-                                                        class="menu-item-details-category-icon" alt=""></div>
+                                                <div class="menu-item-details-name">Prawn and Rice <img src="../Assets/Icons/non-veg-icon.svg" class="menu-item-details-category-icon" alt=""></div>
                                                 <div class="menu-item-detail-description">Fried prawn and rice</div>
                                                 <div class="menu-item-details-more-link"><a href="#">More Details</a>
                                                 </div>
@@ -89,15 +86,12 @@
                                     <div class="menu-item-details-container">
                                         <div class="menu-item-img-container">
                                             <div class="menu-item-img">
-                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg"
-                                                    alt="">
+                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="menu-item-details">
                                             <div class="menu-item-details-part-a">
-                                                <div class="menu-item-details-name">Prawn and Rice <img
-                                                        src="../Assets/Icons/non-veg-icon.svg"
-                                                        class="menu-item-details-category-icon" alt=""></div>
+                                                <div class="menu-item-details-name">Prawn and Rice <img src="../Assets/Icons/non-veg-icon.svg" class="menu-item-details-category-icon" alt=""></div>
                                                 <div class="menu-item-detail-description">Fried prawn and rice</div>
                                                 <div class="menu-item-details-more-link"><a href="#">More Details</a>
                                                 </div>
@@ -118,15 +112,12 @@
                                     <div class="menu-item-details-container">
                                         <div class="menu-item-img-container">
                                             <div class="menu-item-img">
-                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg"
-                                                    alt="">
+                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="menu-item-details">
                                             <div class="menu-item-details-part-a">
-                                                <div class="menu-item-details-name">Prawn and Rice <img
-                                                        src="../Assets/Icons/non-veg-icon.svg"
-                                                        class="menu-item-details-category-icon" alt=""></div>
+                                                <div class="menu-item-details-name">Prawn and Rice <img src="../Assets/Icons/non-veg-icon.svg" class="menu-item-details-category-icon" alt=""></div>
                                                 <div class="menu-item-detail-description">Fried prawn and rice</div>
                                                 <div class="menu-item-details-more-link"><a href="#">More Details</a>
                                                 </div>
@@ -147,9 +138,7 @@
                                     <div class="menu-item-details-container">
                                         <div class="menu-item-details">
                                             <div class="menu-item-details-part-a">
-                                                <div class="menu-item-details-name">Onion Mayo Pav <img
-                                                        src="../Assets/Icons/green-leaf-vegan-icon-by-Vexels.svg"
-                                                        class="menu-item-details-category-icon" alt=""></div>
+                                                <div class="menu-item-details-name">Onion Mayo Pav <img src="../Assets/Icons/green-leaf-vegan-icon-by-Vexels.svg" class="menu-item-details-category-icon" alt=""></div>
                                                 <div class="menu-item-detail-description">Contain onion and mayonese
                                                     with
                                                     potato
@@ -174,8 +163,7 @@
                                         </div>
                                         <div class="menu-item-img-container">
                                             <div class="menu-item-img">
-                                                <img src="../Assets/Images/Food Images/kashish-lamba-2y_-w7KKuYI-unsplash.jpg"
-                                                    alt="">
+                                                <img src="../Assets/Images/Food Images/kashish-lamba-2y_-w7KKuYI-unsplash.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -183,9 +171,7 @@
                                         <div class="menu-item-details-and-user-select-seperator"></div>
                                         <div class="menu-item-user-select-wrapper">
 
-                                            <span class="menu-item-user-selected">1*Medium <span
-                                                    class="menu-item-user-remove-btn"><i
-                                                        class="fa fa-close"></i></span></span>
+                                            <span class="menu-item-user-selected">1*Medium <span class="menu-item-user-remove-btn"><i class="fa fa-close"></i></span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -195,9 +181,7 @@
                                     <div class="menu-item-details-container">
                                         <div class="menu-item-details">
                                             <div class="menu-item-details-part-a">
-                                                <div class="menu-item-details-name">French Fries <img
-                                                        src="../Assets/Icons/veg-icon.svg"
-                                                        class="menu-item-details-category-icon" alt=""></div>
+                                                <div class="menu-item-details-name">French Fries <img src="../Assets/Icons/veg-icon.svg" class="menu-item-details-category-icon" alt=""></div>
                                                 <div class="menu-item-detail-description">Contain potatoes with
                                                     different
                                                     tomato
@@ -214,8 +198,7 @@
                                             </div>
                                         </div>
                                         <div class="menu-item-img">
-                                            <img src="../Assets/Images/Food Images/pixzolo-photography-8YBHgP0WrEo-unsplash.jpg"
-                                                alt="">
+                                            <img src="../Assets/Images/Food Images/pixzolo-photography-8YBHgP0WrEo-unsplash.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="menu-item-user-select-container">
@@ -231,9 +214,7 @@
                                     <div class="menu-item-details-container">
                                         <div class="menu-item-details">
                                             <div class="menu-item-details-part-a">
-                                                <div class="menu-item-details-name">Prawn and Rice <img
-                                                        src="../Assets/Icons/non-veg-icon.svg"
-                                                        class="menu-item-details-category-icon" alt=""></div>
+                                                <div class="menu-item-details-name">Prawn and Rice <img src="../Assets/Icons/non-veg-icon.svg" class="menu-item-details-category-icon" alt=""></div>
                                                 <div class="menu-item-detail-description">Fried prawn and rice</div>
                                                 <div class="menu-item-details-more-link"><a href="#">More Details</a>
                                                 </div>
@@ -248,20 +229,15 @@
                                         </div>
                                         <div class="menu-item-img-container">
                                             <div class="menu-item-img">
-                                                <img src="../Assets/Images/Food Images/louis-hansel-mVZ_gjm_TOk-unsplash.jpg"
-                                                    alt="">
+                                                <img src="../Assets/Images/Food Images/louis-hansel-mVZ_gjm_TOk-unsplash.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="menu-item-user-select-container">
                                         <div class="menu-item-details-and-user-select-seperator"></div>
                                         <div class="menu-item-user-select-wrapper">
-                                            <span class="menu-item-user-selected">2*Small <span
-                                                    class="menu-item-user-remove-btn"><i
-                                                        class="fa fa-close"></i></span></span>
-                                            <span class="menu-item-user-selected">1*Medium <span
-                                                    class="menu-item-user-remove-btn"><i
-                                                        class="fa fa-close"></i></span></span>
+                                            <span class="menu-item-user-selected">2*Small <span class="menu-item-user-remove-btn"><i class="fa fa-close"></i></span></span>
+                                            <span class="menu-item-user-selected">1*Medium <span class="menu-item-user-remove-btn"><i class="fa fa-close"></i></span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -272,9 +248,7 @@
 
                                         <div class="menu-item-details">
                                             <div class="menu-item-details-part-a">
-                                                <div class="menu-item-details-name">Prawn and Rice <img
-                                                        src="../Assets/Icons/non-veg-icon.svg"
-                                                        class="menu-item-details-category-icon" alt=""></div>
+                                                <div class="menu-item-details-name">Prawn and Rice <img src="../Assets/Icons/non-veg-icon.svg" class="menu-item-details-category-icon" alt=""></div>
                                                 <div class="menu-item-detail-description">Fried prawn and rice</div>
                                                 <div class="menu-item-details-more-link"><a href="#">More Details</a>
                                                 </div>
@@ -289,20 +263,15 @@
                                         </div>
                                         <div class="menu-item-img-container">
                                             <div class="menu-item-img">
-                                                <img src="../Assets/Images/Food Images/louis-hansel-mVZ_gjm_TOk-unsplash.jpg"
-                                                    alt="">
+                                                <img src="../Assets/Images/Food Images/louis-hansel-mVZ_gjm_TOk-unsplash.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="menu-item-user-select-container">
                                         <div class="menu-item-details-and-user-select-seperator"></div>
                                         <div class="menu-item-user-select-wrapper">
-                                            <span class="menu-item-user-selected">2*Small <span
-                                                    class="menu-item-user-remove-btn"><i
-                                                        class="fa fa-close"></i></span></span>
-                                            <span class="menu-item-user-selected">1*Medium <span
-                                                    class="menu-item-user-remove-btn"><i
-                                                        class="fa fa-close"></i></span></span>
+                                            <span class="menu-item-user-selected">2*Small <span class="menu-item-user-remove-btn"><i class="fa fa-close"></i></span></span>
+                                            <span class="menu-item-user-selected">1*Medium <span class="menu-item-user-remove-btn"><i class="fa fa-close"></i></span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -312,15 +281,12 @@
                                     <div class="menu-item-details-container">
                                         <div class="menu-item-img-container">
                                             <div class="menu-item-img">
-                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg"
-                                                    alt="">
+                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="menu-item-details">
                                             <div class="menu-item-details-part-a">
-                                                <div class="menu-item-details-name">Prawn and Rice <img
-                                                        src="../Assets/Icons/non-veg-icon.svg"
-                                                        class="menu-item-details-category-icon" alt=""></div>
+                                                <div class="menu-item-details-name">Prawn and Rice <img src="../Assets/Icons/non-veg-icon.svg" class="menu-item-details-category-icon" alt=""></div>
                                                 <div class="menu-item-detail-description">Fried prawn and rice</div>
                                                 <div class="menu-item-details-more-link"><a href="#">More Details</a>
                                                 </div>
@@ -342,15 +308,12 @@
                                     <div class="menu-item-details-container">
                                         <div class="menu-item-img-container">
                                             <div class="menu-item-img">
-                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg"
-                                                    alt="">
+                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="menu-item-details">
                                             <div class="menu-item-details-part-a">
-                                                <div class="menu-item-details-name">Prawn and Rice <img
-                                                        src="../Assets/Icons/non-veg-icon.svg"
-                                                        class="menu-item-details-category-icon" alt=""></div>
+                                                <div class="menu-item-details-name">Prawn and Rice <img src="../Assets/Icons/non-veg-icon.svg" class="menu-item-details-category-icon" alt=""></div>
                                                 <div class="menu-item-detail-description">Fried prawn and rice</div>
                                                 <div class="menu-item-details-more-link"><a href="#">More Details</a>
                                                 </div>
@@ -376,15 +339,12 @@
                                     <div class="menu-item-details-container">
                                         <div class="menu-item-img-container">
                                             <div class="menu-item-img">
-                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg"
-                                                    alt="">
+                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="menu-item-details">
                                             <div class="menu-item-details-part-a">
-                                                <div class="menu-item-details-name">Prawn and Rice <img
-                                                        src="../Assets/Icons/non-veg-icon.svg"
-                                                        class="menu-item-details-category-icon" alt=""></div>
+                                                <div class="menu-item-details-name">Prawn and Rice <img src="../Assets/Icons/non-veg-icon.svg" class="menu-item-details-category-icon" alt=""></div>
                                                 <div class="menu-item-detail-description">Fried prawn and rice</div>
                                                 <div class="menu-item-details-more-link"><a href="#">More Details</a>
                                                 </div>
@@ -401,12 +361,8 @@
                                     <div class="menu-item-user-select-container">
                                         <div class="menu-item-details-and-user-select-seperator"></div>
                                         <div class="menu-item-user-select-wrapper">
-                                            <span class="menu-item-user-selected">2*Small <span
-                                                    class="menu-item-user-remove-btn"><i
-                                                        class="fa fa-close"></i></span></span>
-                                            <span class="menu-item-user-selected">1*Medium <span
-                                                    class="menu-item-user-remove-btn"><i
-                                                        class="fa fa-close"></i></span></span>
+                                            <span class="menu-item-user-selected">2*Small <span class="menu-item-user-remove-btn"><i class="fa fa-close"></i></span></span>
+                                            <span class="menu-item-user-selected">1*Medium <span class="menu-item-user-remove-btn"><i class="fa fa-close"></i></span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -416,15 +372,12 @@
                                     <div class="menu-item-details-container">
                                         <div class="menu-item-img-container">
                                             <div class="menu-item-img">
-                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg"
-                                                    alt="">
+                                                <img src="../Assets/Images/Food Images/sameer-waskar-KojQfg8UdCE-unsplash.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="menu-item-details">
                                             <div class="menu-item-details-part-a">
-                                                <div class="menu-item-details-name">Prawn and Rice <img
-                                                        src="../Assets/Icons/non-veg-icon.svg"
-                                                        class="menu-item-details-category-icon" alt=""></div>
+                                                <div class="menu-item-details-name">Prawn and Rice <img src="../Assets/Icons/non-veg-icon.svg" class="menu-item-details-category-icon" alt=""></div>
                                                 <div class="menu-item-detail-description">Fried prawn and rice</div>
                                                 <div class="menu-item-details-more-link"><a href="#">More Details</a>
                                                 </div>
@@ -450,9 +403,7 @@
                                     <div class="menu-item-details-container">
                                         <div class="menu-item-details">
                                             <div class="menu-item-details-part-a">
-                                                <div class="menu-item-details-name">Prawn and Rice <img
-                                                        src="../Assets/Icons/non-veg-icon.svg"
-                                                        class="menu-item-details-category-icon" alt=""></div>
+                                                <div class="menu-item-details-name">Prawn and Rice <img src="../Assets/Icons/non-veg-icon.svg" class="menu-item-details-category-icon" alt=""></div>
                                                 <div class="menu-item-detail-description">Fried prawn and rice</div>
                                                 <div class="menu-item-details-more-link"><a href="#">More Details</a>
                                                 </div>
@@ -467,8 +418,7 @@
                                         </div>
                                         <div class="menu-item-img-container">
                                             <div class="menu-item-img">
-                                                <img src="../Assets/Images/Food Images/chaman-raj-Y4Oqu2yWsTU-unsplash.jpg"
-                                                    alt="">
+                                                <img src="../Assets/Images/Food Images/chaman-raj-Y4Oqu2yWsTU-unsplash.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
