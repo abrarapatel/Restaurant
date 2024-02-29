@@ -68,13 +68,18 @@
                                     <li class="rtp-mat">Matched</li>
                                 </ul>
                             </div>
+                            <div class="snap-col-12 tandc-conatiner">
+                                <div>
+                                    <input type="checkbox" class="snap-form-element" name="tccb" id="tccb" />
+                                </div>
+                                <p class="">By checking this checkbox you agree with our <span onclick="termAndCondShow()">Terms and Conditions</span>.</p>
+                            </div>
                         </div>
                         <div class="snap-form-row">
                             <button class="snap-button snap-button-black snap-col-12 user-access-button" id="registerBtn">Register</button>
                         </div>
                     </div>
                 </form>
-                <div id="user-access-google"></div>
             </div>
         </div>
     </main>

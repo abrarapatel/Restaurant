@@ -1,11 +1,40 @@
-var signUpForm;
+var createNewPasswordForm;
+
+var url = new URL(window.location.href);
+var recoveryCode = url.searchParams.get("recoveryCode");
+
+if (recoveryCode) {
+    var formData = new FormData();
+    formData.append('recoveryCode', recoveryCode);
+
+    fetch('../controllers/checkRecoveryCode.php', {
+        method: 'POST',
+        body: formData
+    })
+        .then(response => response.text())
+        .then(data => {
+            var dataArray = JSON.parse(data);
+            if (!dataArray.result) {
+                document.getElementById("accessFormContainer").style.display = 'none';
+                document.getElementById("linkExpiredShow").style.display = 'block';
+                document.getElementById("linkExpiredShow").innerHTML = '<h3>' + dataArray.message + '</h3>';
+            } else {
+                document.getElementById('accid').value = dataArray.accid;
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+} else {
+    window.location = './home.php';
+}
 
 document.addEventListener("DOMContentLoaded", function (event) {
-    signUpForm = document.getElementById("signUpForm");
+    createNewPasswordForm = document.getElementById("createNewPasswordForm");
 
-    signUpForm.getElementsByClassName('focus-element')[0].focus();
+    createNewPasswordForm.getElementsByClassName('focus-element')[0].focus();
 
-    let requiredFields = signUpForm.getElementsByClassName("form-required-field");
+    let requiredFields = createNewPasswordForm.getElementsByClassName("form-required-field");
 
     for (let index = 0; index < requiredFields.length; index++) {
         requiredFields[index].addEventListener('input', function () {
@@ -17,10 +46,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
         });
     }
 
-    signUpForm.addEventListener('submit', function (e) {
+    createNewPasswordForm.addEventListener('submit', function (e) {
         e.preventDefault();
 
-        registerAccount(requiredFields);
+        createNewPassword(requiredFields);
     });
 
     document.getElementById('pwd').addEventListener('input', function () {
@@ -145,7 +174,7 @@ function pwdVerification(element) {
     }
 }
 
-function registerAccount(requiredFields) {
+function createNewPassword(requiredFields) {
     var finalReturn = true;
 
     for (let index = 0; index < requiredFields.length; index++) {
@@ -168,16 +197,10 @@ function registerAccount(requiredFields) {
         document.getElementById('rtpwd').style.borderColor = 'black';
     }
 
-    if (document.getElementById('tccb').checked == false) {
-        finalReturn = false;
-        document.getElementById('tccb').style.borderColor = 'red';
-    }
-
     if (finalReturn) {
+        var formData = new FormData(createNewPasswordForm);
 
-        var formData = new FormData(signUpForm);
-
-        fetch('../controllers/signUpRequest.php', {
+        fetch('../controllers/createNewPasswordRequest.php', {
             method: 'POST',
             body: formData,
         })
@@ -185,7 +208,13 @@ function registerAccount(requiredFields) {
             .then(data => {
                 var dataArray = JSON.parse(data);
                 if (dataArray.result) {
-                    window.location = './home.php';
+                    document.getElementById("accessFormContainer").style.display = 'none';
+                    document.getElementById("linkExpiredShow").style.display = 'block';
+                    document.getElementById("linkExpiredShow").innerHTML = '<h3>' + dataArray.message + '</h3><h4>Redirecting to login page</h4>';
+
+                    setTimeout(() => {
+                        window.location = './login.php';
+                    }, 3000);
                 } else {
                     var errorList = document.getElementById('errorList');
                     errorList.innerHTML = `<li>${dataArray.message}</li>`;
@@ -202,28 +231,4 @@ function registerAccount(requiredFields) {
     } else {
         console.log("Form does not filled as required");
     }
-}
-
-function termAndCondShow() {
-    var htmlCode = `<ul>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, eveniet.</li>
-        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia omnis dolores vitae?</li>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis velit numquam libero hic, nostrum dolor nulla magni?</li>
-    </ul>`;
-
-    snap
-        .spark({
-            header: "Terms and Conditions",
-            details:
-                "Last updated 31st Febuary 2024",
-            defaultButton: true,
-            defaultButtonText: 'Agree',
-            cancelButton: true,
-            htmlCode: htmlCode,
-        })
-        .then(function (button) {
-            if (button == "true") {
-                document.getElementById('tccb').checked = true;
-            }
-        });
 }
